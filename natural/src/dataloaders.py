@@ -9,14 +9,14 @@ import os
 import warnings
 import logging
 import socket
-
+from pathlib import Path
 
 class DataLoaders:
     def __init__(self, dataset_name, batch_size_train, batch_size_test, dim_image=128, train=False):
         self.dataset_name = dataset_name
         self.batch_size_train = batch_size_train
         self.batch_size_test = batch_size_test
-        self.base_path = os.path.join('/home/user/work/PycharmProjects/Restora-Flow')
+        self.base_path = Path(__file__).resolve().parent.parent.parent
         self.dim_image = dim_image
         self.train = train
 
