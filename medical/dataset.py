@@ -10,7 +10,7 @@ from xray_dataset_augmentation import XRayDatasetAugmentation
 class XrayHand38ChannelsImageGenerator(Dataset):
     def __init__(self, input_size, heatmap_sigma, experiment_name, train=True):
         xray_hand_folder = os.path.join('dataset', 'xray_hand')
-        image_extension = '.nii.gz'
+        image_extension = '.mhd'
 
         self.w = input_size
         self.h = input_size

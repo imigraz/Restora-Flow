@@ -134,9 +134,10 @@ Supported datasets: X-ray Hand
 ---
 
 ### 3.1 Dataset Setup
+1. How to get the data: \
+The model expects a preprocessed version of the X-ray hand dataset originally sourced from the [Digital Hand Atlas Database](https://www.ipilab.org/Research/BAA/BAAindex.html). \
+The preprocessed dataset is available upon request. Please send an **[email](mailto:arnela.hadzic@medunigraz.at)** to receive the download link.
 
-1. Download the X-ray hand dataset from the original source: \
-https://www.ipilab.org/Research/BAA/BAAindex.html
 
 2. Place images into:
 ```
