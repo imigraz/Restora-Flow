@@ -1,7 +1,7 @@
 # Restora-Flow: Mask-Guided Image Restoration with Flow Matching
 
-[![WACV 2026](https://img.shields.io/badge/WACV-2026-blue.svg)](https://wacv.thecvf.com/)
-[![Paper](https://img.shields.io/badge/Paper-Link-green.svg)](https://arxiv.org/abs/2511.20152)
+[![WACV 2026](https://img.shields.io/badge/WACV-2026-blue.svg)](https://wacv.thecvf.com/Conferences/2026)
+[![Paper](https://img.shields.io/badge/Paper-Link-green.svg)](https://doi.org/10.1109/WACV61042.2026.00480)
 
 This repository contains the official implementation of our paper:
 
@@ -193,11 +193,13 @@ Output is saved to: ```medical/exports/hand_samples/{model_type}/{problem}/{meth
 ## 4. Citation
 
 ```
-@article{hadzic2025restoraflow,
+@inproceedings{hadzic2026restora,
   title={Restora-Flow: Mask-Guided Image Restoration with Flow Matching},
   author={Hadzic, Arnela and Thaler, Franz and Bogensperger, Lea and Joham, Simon Johannes and Urschler, Martin},
-  journal={arXiv preprint arXiv:2511.20152},
-  year={2025}
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={4943--4952},
+  year={2026},
+  doi={10.1109/WACV61042.2026.00480}
 }
 ```
 
